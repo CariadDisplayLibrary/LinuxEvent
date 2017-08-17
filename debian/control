@@ -1,0 +1,20 @@
+Source: libdisplaycore-driver-linuxevent
+Section: libraries
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: libdisplaycore-driver-linuxevent
+Section: libraries
+Architecture: all
+XBSC-Group: DisplayCore
+XBSC-Subgroup: Drivers
+Depends: libdisplaycore-core
+Provides: LinuxEvent.h
+Description: Linux Event driver
+ Receive touchscreen events through the Linux /dev/input/event*
+ framework.
+
+
+
