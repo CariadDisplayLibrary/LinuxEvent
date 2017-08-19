@@ -1,3 +1,4 @@
+#ifdef linux
 #include <LinuxEvent.h>
 
 void LinuxEvent::initializeDevice() {
@@ -128,3 +129,4 @@ int LinuxEvent::pressure() {
 void LinuxEvent::setRotation(int r) {
     _rotation = r % 4;
 }
+#endif

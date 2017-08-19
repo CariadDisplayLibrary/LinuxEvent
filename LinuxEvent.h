@@ -1,6 +1,8 @@
 #ifndef _LINUXEVENT_H
 #define _LINUXEVENT_H
 
+#ifdef linux
+
 #include <DisplayCore.h>
 #include <CircularBuffer.h>
 
@@ -180,6 +182,8 @@ class LinuxEvent : public Touch, public Stream {
         int _y;
         int _maxfd;
 };
+
+#endif
 
 #endif
 
