@@ -155,7 +155,7 @@ class LinuxEvent : public Touch, public Stream {
         int y();
         int rawX();
         int rawY();
-        boolean isPressed();
+        bool isPressed();
 
         void initializeDevice();
 
@@ -172,7 +172,7 @@ class LinuxEvent : public Touch, public Stream {
         int _fd[_MAX_IN_DEV];
         uint32_t _lastChange;
         struct coord _pos;
-        boolean _pressed;
+        bool _pressed;
         float _scale_x;
         float _scale_y;
         int _offset_x;

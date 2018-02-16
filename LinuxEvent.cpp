@@ -60,7 +60,7 @@ int LinuxEvent::y() {
     return 0;
 }
 
-boolean LinuxEvent::isPressed() {
+bool LinuxEvent::isPressed() {
     return _pressed;
 }
 
