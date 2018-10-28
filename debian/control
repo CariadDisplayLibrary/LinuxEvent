@@ -12,7 +12,7 @@ XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
 Depends: libdisplaycore-core
 Provides: LinuxEvent.h
-Description: Linux Event driver
+Description: Linux Input Events
  Receive touchscreen events through the Linux /dev/input/event*
  framework.
 
