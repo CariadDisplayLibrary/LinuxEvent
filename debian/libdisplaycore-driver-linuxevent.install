@@ -1,2 +1,3 @@
-LinuxEvent.cpp libraries/DisplayCore/LinuxEvent
-LinuxEvent.h libraries/DisplayCore/LinuxEvent
+library.json libraries/DisplayCore/LinuxEvent
+library.properties libraries/DisplayCore/LinuxEvent
+src libraries/DisplayCore/LinuxEvent
