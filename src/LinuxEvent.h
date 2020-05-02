@@ -3,7 +3,7 @@
 
 #ifdef linux
 
-#include <DisplayCore.h>
+#include <Cariad.h>
 #include <CircularBuffer.h>
 
 #include <sys/time.h>

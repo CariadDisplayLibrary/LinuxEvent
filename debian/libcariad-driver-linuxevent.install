@@ -1,0 +1,3 @@
+library.json libraries/Cariad/LinuxEvent
+library.properties libraries/Cariad/LinuxEvent
+src libraries/Cariad/LinuxEvent
